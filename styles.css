@@ -1,0 +1,179 @@
+body,
+html {
+  background-color: #fffefc;
+  text-align: center;
+}
+.notion_logo {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 2%;
+  left: 13.5%;
+}
+
+.notion {
+  font-family: Arial;
+  font-weight: 400;
+  position: absolute;
+  left: 16%;
+  top: 1%;
+  font-size: 12pt;
+}
+
+.login {
+  font-weight: bolder;
+  text-align: center;
+  padding: 8%;
+  font-size: 50px;
+  font-family: Arial;
+  padding-bottom: 0%;
+}
+
+.google-button {
+  font-weight: 545;
+  font-size: 15px;
+  background-color: #ffffff;
+  width: 300px;
+  height: 40px;
+  border-width: 1px;
+  border-color: rgb(211, 211, 211);
+  border-radius: 5px;
+  border-style: solid;
+}
+.google-logo {
+  width: 15px;
+  height: 15px;
+  padding-right: 2%;
+}
+.apple {
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.apple-button {
+  font-weight: 545;
+  font-size: 15px;
+  background-color: #ffffff;
+  width: 300px;
+  height: 40px;
+  border-width: 1px;
+  border-color: rgb(211, 211, 211);
+  border-radius: 5px;
+  border-style: solid;
+}
+.apple-logo {
+  width: 17px;
+  height: 17px;
+  padding-right: 2%;
+}
+
+.line {
+  width: 17.5%;
+  height: 0.2%;
+  color: #f0f0f0;
+  border-width: 0.1px;
+}
+.email {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 10pt;
+  color: rgba(43, 42, 37, 0.65);
+  position: absolute;
+  left: 41%;
+  bottom: 50%;
+}
+
+.emailbox {
+  display: flex;
+  align-items: center;
+  width: 17.25%;
+  font-size: 15px;
+  line-height: 26px;
+  padding: 4px 10px;
+  position: relative;
+  border-radius: 4px;
+  box-shadow: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px inset;
+  background: rgba(242, 241, 238, 0.6);
+  cursor: text;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  position: absolute;
+  left: 41%;
+  bottom: 45%;
+}
+
+.emailboxemail {
+  font-size: inherit;
+  line-height: inherit;
+  border: none;
+  background: none;
+  width: 100%;
+  display: block;
+  resize: none;
+  padding: 0px;
+  color: rgb(254, 247, 247);
+}
+
+.emailcontinue {
+  user-select: none;
+  transition: background 20ms ease-in 0s;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  height: 36px;
+  border-radius: 4px;
+  color: rgb(235, 87, 87);
+  font-size: 14px;
+  font-family: Arial;
+  line-height: 1;
+  padding-left: 12px;
+  padding-right: 12px;
+  font-weight: 600;
+  background: rgb(253, 245, 242);
+  box-shadow: rgba(15, 15, 15, 0.1) 0px 1px 2px,
+    rgba(235, 87, 87, 0.3) 0px 0px 0px 1px inset;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  width: 17%;
+  position: absolute;
+  left: 41%;
+  bottom: 39%;
+}
+.link {
+  display: inline;
+  color: inherit;
+  text-decoration: underline;
+  user-select: none;
+  cursor: pointer;
+}
+.password {
+  color: rgba(55, 53, 47, 0.65);
+  font-size: 12pt;
+  line-height: 1.6;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  position: absolute;
+  left: 47%;
+  bottom: 35%;
+}
+.secondLink {
+  color: rgba(55, 53, 47, 0.65);
+  font-size: 12pt;
+  font-family: Arial;
+  line-height: 1.6;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  position: absolute;
+  left: 43%;
+  bottom: 32%;
+}
+.notion-link {
+  display: inline;
+  color: inherit;
+  text-decoration: underline;
+  user-select: none;
+  cursor: pointer;
+}
